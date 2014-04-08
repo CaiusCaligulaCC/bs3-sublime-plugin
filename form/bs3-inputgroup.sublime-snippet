@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="input-group form-group" ${1:data-toggle="tooltip" title="${2}"}>
+	<span class="input-group-addon">
+		${3:<span class="icon icon-${4:clipboard}"></span>}
+	</span>
+	${5}
+</div>
+]]></content>
+	<tabTrigger>bs3-inputgroup</tabTrigger>
+</snippet>
