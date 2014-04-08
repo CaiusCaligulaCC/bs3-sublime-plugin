@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 ${1:<a class="btn btn-primary" data-toggle="modal" href='#${2:modal-id}'>Trigger modal</a>}
-<div class="modal fade" id="${2:modal-id}">
+<div class="modal fade" id="${2:modal-id}" tabindex="-1" role="dialog"
+	aria-hidden="true">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
